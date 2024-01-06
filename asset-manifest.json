@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mandhatimahendra/sample-portfolio/static/css/main.983612f8.css",
+    "main.js": "/mandhatimahendra/sample-portfolio/static/js/main.bb791f33.js",
+    "static/js/787.cb626b44.chunk.js": "/mandhatimahendra/sample-portfolio/static/js/787.cb626b44.chunk.js",
+    "index.html": "/mandhatimahendra/sample-portfolio/index.html",
+    "main.983612f8.css.map": "/mandhatimahendra/sample-portfolio/static/css/main.983612f8.css.map",
+    "main.bb791f33.js.map": "/mandhatimahendra/sample-portfolio/static/js/main.bb791f33.js.map",
+    "787.cb626b44.chunk.js.map": "/mandhatimahendra/sample-portfolio/static/js/787.cb626b44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.983612f8.css",
+    "static/js/main.bb791f33.js"
+  ]
+}
