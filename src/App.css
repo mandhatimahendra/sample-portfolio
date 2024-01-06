@@ -1,38 +1,226 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container{
+  background-size:cover;
+  height:100vh;
+  
+}
+.nav-container{
+  position:fixed;
+  top:0px;
+  width:100vw;
+  height:10%;
+  background-color:antiquewhite;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
+.nav-list-container{
+  display: flex;
+  justify-content: space-around;
+  margin-right:5%;
+}
+
+.about{
+  margin-top:20px;
+  background-color:antiquewhite;
+
+  ;
+  border-width: 0px;
+}
+.project{
+  margin-left:50px;
+  margin-top:20px;
+  background-color:antiquewhite;
+
+  border-width: 0px;
+}
+.contact{
+  margin-left:50px;
+  margin-top:20px;
+  margin-right:20px;
+  background-color:antiquewhite;
+
+  border-width: 0px;
+}
+.nav-but{
+  background-color:antiquewhite;
+
+  border-width: 0px;
+
+}
+.name{
+  font-size:20px;
+  margin-left:40px;
+  margin-bottom:10px;
+}
+.about-container{
+  display: flex;
+  margin-top:5%;
+  margin-left:40px;
+  padding-top:60px;
+  height:83%;
+}
+.designer-name{
+  color:orange;
+  font-size:30px;
+  margin:0px;
+  margin-bottom:5px;  
+  margin-top:30px;
+}
+.profile-container{
+  width:60%;
+}
+.intro{
+  font-size:40px;
+  font-family:"sans-serif";
+  margin:0px;
+}
+.description{
+  font-family:"Arial";
+  color:#9f9da1;
+  font-size:20px;
+
+}
+.project-button{
+  width:22%;
+  height:30px;
+  background-color: #edc628;
+  color:black;
+  font-family: "Arial";
+  border-width:0px;
+  border-radius:3px;  
+}
+.linkedin-button{
+  width:20%;
+  height:30px;
+  border-color:black;
+  border-width: 2px;;
+  color:black;
+  border-width: 1px;
+  font-family: "Arial";
+  margin-left:20px;
+}
+.img-container{
+  margin-top:40px;
+}
+.img-img{
+  width:70%;
+  height:80%;
+  margin-left:15%;
+  margin-right:30px;
+  border-radius: 10px;
+}
+.add-project{
+  text-align:center;
+  padding-top:60px;
+}
+.project-title{
+  font-size:20px;
+  
+  margin:0px;
+  margin:4px;
+  font-family: "Arial";
+  margin-left:40%;
+
+}
+.input-field{
+  width:20%;
+  height:30px;
+  margin-left:40%;
+}
+.input-field1{
+  width:20%;
+  margin-left:40%;
+  
+}
+.form-button{
+  width:5%;
+  height:20px;
+  margin-left:40%;
+  background-color: #edc628;
+  border-width: 0px;
+}
+.first-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-container1{
+  display:none;
+  justify-content: center;
+  align-items: center;
+}
+.project-name-title-heading{
+  font-size:30px;
+  font-family:"sans-serif";
+}
+.para-item-2{
+  width:40%;
+  height:350px;
+  margin-left:60px;
+}
+.img-container{
+  width:40%
+}
+.projects-head{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.projects-head{
+  padding-top:100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project-heading{
+  width:40%;
+  height:30px;
 }
+.img-1{
+  width:70%;
+  height:200px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.view-project-button{
+  border-radius: 10px;
+  width:100px;
+  height:30px;
+  font-weight: 400;
+  border-width: 1px;
+}
+.project-list-container{
+  margin-top:60px;
+
+}
+.contact-icons{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.insta{
+  background-color: black;
+}
+.copy-right{
+  text-align: center;
+  padding-bottom:30px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-container{
+  margin-top:40px;
+  margin:20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-insta{
+  width:50px;
+  height:50px;
+  margin-right:20px;
 }
